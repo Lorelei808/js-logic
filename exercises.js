@@ -411,6 +411,17 @@ for (var i = 0; i<myFavFoods.length; i++){
  * Console.log your result.
 */
 
+var numArray = [11, 22, 33, 44, 55];
+
+function sumItUp(arr){
+  var total = 0;
+  for (var i = 0; i<numArray.length; i++){
+    console.log(arr[i]);
+    total += arr[i]
+  }
+  return total
+}
+console.log("sumItUp", sumItUp(numArray));
 
 
 /*
