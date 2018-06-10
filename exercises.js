@@ -380,6 +380,11 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+var soccerTeam = ["1 - Chris", "2 - PJ", "3 - Kip", "4 - Adam", "5 - Tony"];
+
+for (var i = 0; i<soccerTeam.length; i++){
+  console.log("CCRS Boys Soccer Team Top 5 Players: " + soccerTeam[i]);
+ }
 
 /* 
  * #16
