@@ -132,8 +132,15 @@ console.log("Three-letter word: " , bigBird("Dog"));
  * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
-
-
+console.log("6--------------------");
+function isEqual(first, second){
+  if(first.length === second.length){
+    return "You look mahvelous!";    
+  }else{
+    return "I don't know you anymore."
+  }
+}
+console.log(isEqual("Yes", "no"));
 /*
  * #7
  * Function - notEqual
