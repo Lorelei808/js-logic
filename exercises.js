@@ -306,12 +306,52 @@ console.log(moneyTrain(100));
  * Invoke your function again.
  * Console.log budget and doughnutBought again.
 */ 
+console.log("14---------------------");
+var budget = 100
+var donutPrice = 1.00
+var donutBought = 0
+
+function buyDonut(){
+  if(budget >= donutPrice){
+    (budget -= donutPrice);
+    (donutBought++);
+  }
+}
+buyDonut();
+console.log("Budget: $", budget - donutPrice);
+console.log("Donuts purchased: ", donutBought);
 
 /*Final Boss*/
 /*Create a function name dailySpecials which takes in a parameter: `special`.
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
-
-
+console.log("Final Boss----------------------");
+function dailySpecials(special){
+  switch (special){
+  case "Monday":
+    menu = "Chicken Parm with Fresh Made Pasta";
+    break;
+  case "Tuesday":
+    menu = "Tacos, Burritos, and Nachos Ole!";
+    break;
+  case "Wednesday":
+    menu = "Gyros";
+    break;  
+  case "Thursday":
+    menu = "Mongolian Beef Stirfry";
+    break;
+  case "Friday":
+    menu = "Darlow Special Pizza";
+    break;
+  case "Saturday":
+    menu = "Grilled Brautwurst, Peppers and Onions";
+    break;
+  case "Sunday":
+    menu = "Mimi's Pot Roast, Mashed Taters, and Fresh Garden Salad";
+    break;
+  }
+  return menu
+}
+console.log(dailySpecials("Thursday"));
 
 /*
 For loops - A for loop checks a condition a specific number of times and allows us to execute a code block and evaluate a condition to determine if our loop should run again.
