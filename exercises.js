@@ -91,8 +91,15 @@ function isGreaterThan(first, second){
  * The function will return true if the value passed into the function is "true".
  * Console.log your result.
 */
-
-
+console.log("4--------------------");
+function mustBeTrue(boo){
+  if(boo > 11){
+    return true;
+  }else{
+    return;
+  }
+}
+console.log(mustBeTrue(1));
 
 /*
  * #5
