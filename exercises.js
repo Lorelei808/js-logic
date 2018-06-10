@@ -115,7 +115,7 @@ console.log(mustBeTrue(1));
 console.log("5--------------------");
 function bigBird(word){
   if(word.length === 3){
-    return "Word to Big Bird!"
+    return "Word to Big Bird!";
   }
 }
 console.log("Three-letter word: " , bigBird("Dog"));
@@ -137,7 +137,7 @@ function isEqual(first, second){
   if(first.length === second.length){
     return "You look mahvelous!";    
   }else{
-    return "I don't know you anymore."
+    return "I don't know you anymore.";
   }
 }
 console.log(isEqual("Yes", "no"));
@@ -153,8 +153,15 @@ console.log(isEqual("Yes", "no"));
  * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
  * Console.log your result.
 */
-
-
+console.log("7-------------------");
+function notEqual(first, second){
+  if(first !== second){
+    return "Opposites do attract";
+  }else{
+    return "Cause it's like you're my mirror image!";
+  }
+}
+console.log(notEqual(3, 3));
 /*
  * #8
  * Function - spareChange
