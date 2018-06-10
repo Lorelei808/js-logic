@@ -245,7 +245,7 @@ function daClub(cover, age){
   if(cover > 10 && age > 21){
     return "Welcome to the Legends Lounge.";
   }else{
-    return "Chuckie Cheese is accross the street."
+    return "Chuckie Cheese is accross the street.";
   }
 }
 console.log(daClub(8, 23));
@@ -261,8 +261,15 @@ console.log(daClub(8, 23));
  * If EITHER the number value is greater than or equal to 120 or the boolean value is true, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
  * Console.log your result.
 */ 
-
-
+console.log("12--------------------");
+function graduation(credits, thesis){
+  if(credits >= 120 || thesis === "done"){
+    return "Congratulations on a job well done!";
+  }else{
+    return "See you in summer school!";
+  }
+}
+console.log(graduation(118, "not done"));
 
 /*
  * #13
