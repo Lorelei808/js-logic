@@ -173,8 +173,15 @@ console.log(notEqual(3, 3));
  * The function will return true if the number passed into the function is greater than 100, otherwise it will return false.
  * Console.log your result.
 */ 
-
-
+console.log("8------------------");
+function spareChange(money){
+  if(money > 100){
+    return true;
+  }else{
+    return false;
+  }
+}
+console.log(spareChange(100.1));
 
 /*
  * #9
