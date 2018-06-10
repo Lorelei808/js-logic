@@ -52,7 +52,7 @@ console.log("1. Woo hoo! Can vote: ", canVote(19));
 console.log("2---------------------");
 function login(password){
   if(password === "test1234"){
-    return "Login Success!"
+    return "Login Success!";
   }else{
     return "Login FAILED!";
   }
@@ -70,9 +70,16 @@ console.log(login("test1235"));
  * The function will return true if the first number is greater than the second.
  * Console.log your result.
 */
-
-
-
+console.log("3--------------------");
+function isGreaterThan(first, second){
+  if(first > second){
+  return true;
+  }else{
+  return false;
+  }
+}
+  console.log(isGreaterThan(3, 7));
+  
 /*
  * #4
  * Function - mustBeTrue
